@@ -1,0 +1,14 @@
+$fa-font-path : "/webfonts";
+
+@import '../vendors/icons/fontawesome/scss/fontawesome.scss';
+@import '../vendors/icons/fontawesome/scss/solid.scss';
+@import '../vendors/icons/fontawesome/scss/brands.scss';
+
+%icons-solid{
+  @extend %fa-icon;
+  @extend .fas;
+}
+%icons-brand{
+  @extend %fa-icon;
+  @extend .fab;
+}

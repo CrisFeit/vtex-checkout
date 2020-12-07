@@ -1,0 +1,24 @@
+.header{
+  transition: opacity .3s;
+  transform: scale(1);
+  background-color: #222;
+  color: rgb(0, 161, 241);
+  padding: 0.5em;
+  h1{
+    display: flex;
+    align-items: center;
+    font-size: rem(45);
+  }
+}
+
+.header__button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: .5em;
+    @extend %icons-solid;
+          font-size: rem(40);
+          &:before {
+          content: fa-content($fa-var-history);
+      }
+}

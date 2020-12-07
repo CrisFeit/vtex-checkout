@@ -1,0 +1,20 @@
+.footer{
+    background-color: #222;
+    color: rgb(0, 161, 241);
+    padding: 1em;
+    font-size: rem(30);
+}
+
+.footer__social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  .--github {
+    @extend %icons-brand;
+          font-size: rem(40);
+          &:before {
+          content: fa-content($fa-var-github);
+      }
+  }
+}

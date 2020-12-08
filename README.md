@@ -1,45 +1,26 @@
-# NodeFlix
- ### Service media interface based on user files
+# Vtex Checkout
 
 ##  Features
-* Posters and infos about the medias
-* Genre classification
-* Season selector
+* Webpack
+* Babel
+* Sass
+* PostCss
 
 ## Requirements
-* Node.js 12 >
+* Node.js >=12.0.0
 ## Install
 ```bash
   npm install
 ```
 ## Guide
-
-* The folders name must be the same name of the media in english
-* The folders name must write in kebab case style
-* Folders structure must stay inside medias folder
+* Files path for development mode
 ```
-medias 
+http://localhost:8080/
 │
-└───movies
-│   │   folder-movie-name-1
-│   │   folder-movie-name-2
-│       │
-│       └───│movie-file
-└───series
-    │   folder-serie-name-1
-    │   folder-serie-name-2
-        │
-        └───│   folder-season-01
-            │   folder-season-02
-                │
-                └───│file-episode-S02E01
-                    │file-episode-S02E02
+└───│   checkout6-custom.js
+    │   checkout6-custom.css
 ```
 ## Comand
-- Start
-```bash
-npm start
-```
 - Development
 ```bash
 npm run dev

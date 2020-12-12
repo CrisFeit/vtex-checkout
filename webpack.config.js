@@ -1,3 +1,4 @@
+require('dotenv/config')
 const path = require('path');
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
@@ -10,15 +11,15 @@ module.exports = {
   ],
 
   output: {
-    filename: 'checkout6-custom.js',
+    filename: `${process.env.SCRIPT_NAME}.js`,
     path: path.resolve(__dirname, 'dist'),
   },
 
   plugins: [
-    new MiniCssExtractPlugin({
-      filename: 'checkout6-custom.css'
-    }),
     new CleanWebpackPlugin(),
+    new MiniCssExtractPlugin({
+      filename: `${process.env.STYLE_NAME}.css`
+    }),
   ],
   module: {
     rules: [
@@ -41,7 +42,6 @@ module.exports = {
           },
           'css-loader',
           'postcss-loader',
-          'sass-loader',
           {
             loader: 'sass-loader',
             options: {

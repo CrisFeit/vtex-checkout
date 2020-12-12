@@ -3,8 +3,10 @@
 ##  Features
 * Webpack
 * Babel
+* ESLint
 * Sass
 * PostCss
+* ITCSS Architecture
 
 ## Requirements
 * Node.js >=12.0.0
@@ -15,10 +17,8 @@
 ## Guide
 * Files path for development mode
 ```
-http://localhost:8080/
-│
-└───│   checkout6-custom.js
-    │   checkout6-custom.css
+http://localhost:8080/checkout6-custom.js
+http://localhost:8080/checkout6-custom.css
 ```
 ## Comand
 - Development

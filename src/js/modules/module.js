@@ -1,5 +1,5 @@
 export default {
   warning() {
-    setTimeout(() => alert('Hello World'), 1000)
+    setTimeout(() => alert('Development Mode'), 1000)
   }
 }

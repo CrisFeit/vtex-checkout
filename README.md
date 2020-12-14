@@ -17,8 +17,8 @@
 ## Guide
 * Files path for development mode
 ```
-http://localhost:8080/checkout6-custom.js
-http://localhost:8080/checkout6-custom.css
+http://localhost:8080/files/checkout6-custom.js
+http://localhost:8080/files/checkout6-custom.css
 ```
 ## Comand
 - Development
